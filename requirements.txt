@@ -1,8 +1,9 @@
 flask
 flask-cors
-torch
-torchvision
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
 pillow
+gunicorn
 opencv-python-headless
 numpy
-gunicorn
